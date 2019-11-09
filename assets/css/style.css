@@ -56,12 +56,19 @@ h2{
 }
 
 img{
-    float:left;
-    margin:15px 35px 10px 15px;
-    width:200px;
-    height:200px;
-    
+  margin: 15px 50px 10px 15px;
+  width: 200;
+  height: 150px;
+  border:1px solid grey;
 }
+
+#my-pic{
+  float:left;
+  margin: 15px 50px 10px 15px;
+  width: 200px;
+  height: 150;
+}
+
 h1{
     margin-left:20%;
     background:lightseagreen;
@@ -74,8 +81,9 @@ h1{
 }
 
 p{
+color:gray;
   margin:0px 30px;
-line-height: 35pt;
+  line-height: 35pt;
 }
 .footer {
   position: fixed;
@@ -110,4 +118,25 @@ input[type=submit]{
     text-decoration: none;
     margin: 20;
     cursor: pointer;
+}
+
+span{
+  float: left;
+}
+
+#container{
+  width:600px;
+}
+
+.inner-div{
+  position: absolute;
+  margin: -60 10 5 14;
+  background: #4b9ea9;
+  padding: 10 87;
+  width: 30px;
+  color:white;
+}
+
+input::placeholder{
+  color:lightgray;
 }
